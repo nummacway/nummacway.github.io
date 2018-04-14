@@ -1,5 +1,5 @@
 collections:
-  shield
+  shield:
     output: true
     permalink: /shields/:name/
   shields:

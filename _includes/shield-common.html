@@ -2,7 +2,9 @@
 title: "Dummy"
 ---
 <h2>{{ include.page.title }}</h2>
-{{ include.page.pins }}
+{% for pins in include.page.pins %}
+<div class="{{ pins }}">{{ pins }}</div>
+{% endfor %}
 <h3>Features</h3>
 <ul class="features">
 {% if include.page.ethernet %}

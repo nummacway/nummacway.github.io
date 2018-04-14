@@ -10,6 +10,7 @@ layout: page
   <h2>{{ shield.title }}</h2>
   <p>{{ shield.pins }}</p>
   <p><a href="{{ shield.url }}">Link</a></p>
+  {{ include shield.html page=shield }}
 </div>
 {% endif %}
 {% endfor %}

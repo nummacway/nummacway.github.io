@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19" height="19" width="19" fill="none" stroke="#234" stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(.5 .5)" id="a">
+<rect height="8" width="16" rx="0.5" />
+<path d="M16 2h1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-1" />
+</g>
+<use xlink:href="#a" transform="matrix(-1 0 0 1 19 10)" />
+<path d="M8.5 2.5l-1 2h2l-1 2" />
+<path d="M10.5 12.5l-1 2h2l-1 2" />
+</svg>

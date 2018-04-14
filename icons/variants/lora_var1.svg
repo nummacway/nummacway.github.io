@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 19 19" height="19" width="19" fill="none" stroke="#234" stroke-linejoin="round" stroke-linecap="round">
 <g transform="translate(.5 .5)">
 <circle cx="6" cy="9" r="2" />
-<path d="M0 6v5h2.5m7.5 0v-5h1.5a1.5 1.5 0 0 1 0 3h-1m1 0l1.5 2m2-4h1.5a1.5 1.5 0 0 1 1.5 1.5v2.5m0-2.5a3 1.5 0 0 0-3 1.5a1 1 0 0 0 1 1a2 1.5 0 0 0 2-1.5" />
+<path d="M0 5v6h2.5m7.5 0v-6h1.5a1.5 1.5 0 0 1 0 3h-1m1 0l1.5 3m2-4h1.5a1.5 1.5 0 0 1 1.5 1.5v2.5m0-2.5a3 1.5 0 0 0-3 1.5a1 1 0 0 0 1 1a2 1.5 0 0 0 2-1.5" />
 <path d="M6 13a4 4 0 0 0 4-4M6 15a6 6 0 0 0 6-6M6 17a8 8 0 0 0 8-8" transform="rotate(45 6 9)" id="a" />
 <use xlink:href="#a" transform="matrix(1 0 0 -1 0 18)" />
 </g>

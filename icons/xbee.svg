@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 19 19" fill="none" stroke="#234" stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(.5 .5)">
+<path d="M0 6l3 6m0-6l-3 6m 5 0h1.5a1.5 1.5 0 0 0 0-3h-1 1a1.5 1.5 0 0 0 0-3h-1.5z" />
+<path d="M10 10h3v-.5a1.5 1.5 0 0 0-3 0v1a1.5 1.5 0 0 0 1.5 1.5h1.5" id="a" />
+<use xlink:href="#a" x="5" />
+<path d="M1.3 4.7l4.7-4.7h6l5 5v1m0 8v4h-16v-4m2 0h0m0 2h0m12-2h0m0 2h0M8 2h0m0 2h0m2-2h0m0 2h0m-1 9l1.5 1.5-1.5 1.5-1.5-1.5z" />
+<circle cx="13" cy="5" r="1" />
+</g>
+</svg>

@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Category List"
+permalink: /
+---
+{% for category in site.shields %}
+<div>
+  <h2><img src="/icons/{{ category.self }}.svg" alt="{{ category.title }}" />{{ category.title }}</h2>
+  <p>{{ category.description }}</p>
+</div>
+{% endfor %}

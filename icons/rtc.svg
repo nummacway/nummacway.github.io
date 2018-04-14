@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 19 19" fill="none" stroke="#234" stroke-linecap="round">
+<g transform="translate(9.5 9.5)">
+<circle r="1" stroke-width="0.75" />
+<circle r="9" />
+<g id="ticks2">
+<g id="ticks" stroke-width="0.75">
+<line y1="6.25" y2="7" />
+<line y1="6.5" y2="7" transform="rotate(30)" />
+<line y1="6.5" y2="7" transform="rotate(60)" />
+</g>
+<use xlink:href="#ticks" transform="rotate(90)" />
+</g>
+<use xlink:href="#ticks2" transform="rotate(180)" />
+<line y1="1.25" y2="5" />
+<line y1="1.25" y2="4.5" transform="rotate(135)" />
+</g>
+</svg>

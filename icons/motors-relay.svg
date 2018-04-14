@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 19 19" fill="none" stroke="#234" stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(9.5 9.5)">
+<g id="a">
+<path d="M-1-1.25c-1-1-2-7.75 1-7.75s2 7.75 1 7.75" />
+<g stroke-width="0.8">
+<path d="M0-5a5 5 0 0 1 3.54 1.46" transform="rotate(25)" />
+<path d="M0-8a8 8 0 0 1 6.93 4" transform="rotate(12)" />
+</g>
+</g>
+<use xlink:href="#a" transform="rotate(120)" />
+<use xlink:href="#a" transform="rotate(240)" />
+<circle r="1.5" />
+</g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 19 19" fill="none" stroke="#234" stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(9.5 9.5)">
+<g id="c">
+<g id="b">
+<g id="a">
+<path d="M-2 -6.5L-1.25 -9h2.5l0.75 2.5 1.25 0.5" />
+</g>
+<use xlink:href="#a" transform="rotate(45)" />
+</g>
+<use xlink:href="#b" transform="rotate(90)" />
+</g>
+<use xlink:href="#c" transform="rotate(180)" />
+<circle r="3" />
+</g>
+</svg>

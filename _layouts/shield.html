@@ -1,0 +1,19 @@
+---
+layout: page
+---
+<div>
+  <h2>{{ page.title }}</h2>
+  {% if page.pins %}
+  <p>{{ page.pins }}</p>
+  {% endif %}
+  <h3>Features</h3>
+  {% if page.ethernet %}
+  <p><img src="/icons/ethernet.svg" alt="Ethernet (LAN)" /> {{ page.ethernet }}</p>
+  {% endif %}
+  {% if page.wifi %}
+  <p><img src="/icons/wifi.svg" alt="Wi-Fi (WLAN)" /> {{ page.wifi }}</p>
+  {% endif %}
+  {% if page.sd %}
+  <p><img src="/icons/sd.svg" alt="SD (TF)" /> {{ page.sd }}</p>
+  {% endif %}
+</div>

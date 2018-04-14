@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 19 19" fill="none" stroke="#234" stroke-linejoin="round" stroke-linecap="round">
+<defs>
+<symbol id="a"><line transform="translate(1 1)" /></symbol>
+</defs>
+<g transform="translate(.5 .5)">
+<rect y="6" height="10" width="18" rx="1" />
+<g id="d">
+<g id="c">
+<g id="b">
+<use xlink:href="#a" x="1" y="7" />
+<use xlink:href="#a" x="3" y="7" />
+</g>
+<use xlink:href="#b" x="4" />
+</g>
+<use xlink:href="#c" x="8" />
+</g>
+<use xlink:href="#d" y="2" />
+<use xlink:href="#d" y="4" />
+<use xlink:href="#b" y="6" />
+<use xlink:href="#b" x="12" y="6" />
+<line x1="6" y1="14" y2="14" x2="12" />
+<path d="M2,0c0 7 7 -1 7 6" />
+</g>
+</svg>

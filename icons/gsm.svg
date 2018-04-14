@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 19 19" fill="none" stroke="#234" stroke-linejoin="round" stroke-linecap="round">
+<path d="M8.5 2h2" stroke-width="0.8" />
+<g transform="translate(1 .5)">
+<rect x="3" height="18" width="11" rx="1.5" />
+<rect x="5" y="3" height="5" width="7" />
+<g id="b" />
+<path d="M5 10h1m2 0h1m2 0h1" id="a" />
+<use xlink:href="#a" y="2" />
+</g>
+<use xlink:href="#b" y="4" />
+</g>
+</svg>

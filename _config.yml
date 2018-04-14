@@ -5,3 +5,15 @@ collections:
   shields:
     output: true
     permalink: /shields/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: shield
+    values:
+      layout: shield
+  - scope:
+      path: ""
+      type: shields
+    values:
+      layout: shields

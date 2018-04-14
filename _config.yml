@@ -1,19 +1,7 @@
 collections:
-- shield
-- shields
-
-defaults:
-  - scope:
-      path: ""
-      type: shields
-    values:
-      layout: shields
-      output: true
-      permalink: /shields/:name/
-  - scope:
-      path: ""
-      type: shield
-    values:
-      layout: shield
-      output: true
-      permalink: /shield/:name/
+  shield
+    output: true
+    permalink: /shields/:name/
+  shields:
+    output: true
+    permalink: /shields/:name/

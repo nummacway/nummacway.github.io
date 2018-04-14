@@ -1,4 +1,17 @@
 ---
 title: "Dummy"
 ---
-Hi!
+<h2>{{ include.page.title }}</h2>
+
+<h3>Features</h3>
+<ul class="features">
+{% if include.page.ethernet %}
+<li class="ethernet"><img src="/icons/ethernet.svg" alt="" /> <span><b>Ethernet:</b> {{ include.page.ethernet }}</span>
+{% endif %}
+{% if include.page.wifi %}
+<li class="wifi"><img src="/icons/wifi.svg" alt="" /> <span><b>Wi-Fi:</b> {{ include.page.wifi }}</span>
+{% endif %}
+{% if include.page.sd-card %}
+<li class="sd-card"><img src="/icons/sd-card.svg" alt="" /> <span><b>SD/TF:</b> {{ include.page.sd-card }}</span>
+{% endif %}
+</ul>

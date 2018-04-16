@@ -1,5 +1,5 @@
 ---
-self: "ethernet"
 title: "Ethernet (LAN)"
-description: "Connect to the internet with your RJ-45 cable"
+description: "Get connected by using your RJ-45 cable"
+parent: "networking"
 ---

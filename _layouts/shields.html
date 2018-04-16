@@ -1,11 +1,15 @@
 ---
 layout: page
 ---
-<h2><img src="/icons/{{ page.self }}.svg" alt="{{ category.title }}" />{{ page.title }}</h2>
+{% assign temp = page.id | split: "/" %}
+{% assign self = temp.last %}
+<content id="shieldlist {{ self }}">
+<h1><img src="/icons/{{ page.self }}.svg" alt="{{ category.title }}" />{{ page.title }}</h1>
 <div id="shieldlist">
-  <p>{{ page.description }}</p>
+<p>{{ page.description }}</p>
 {% for shield in site.shield %}
-{% if shield.features contains page.self %}
+{% if shield.features contains self %}
+<h2>{{ shield.title }}</h2>
 <div class="listentry">
   {% include shield-common.html page=shield %}
   <p><a href="{{ shield.url }}">Link</a></p>
@@ -13,3 +17,4 @@ layout: page
 {% endif %}
 {% endfor %}
 </div>
+</content>

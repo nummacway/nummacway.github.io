@@ -1,5 +1,7 @@
 <h2>{{ include.page.title }}</h2>
-<p>{{ include.page.id }}</p>
+{% assign temp = include.page.id | split: "/" %}
+{% assign self = temp.last %}
+<p>{{ self }}</p>
 {% for pins in include.page.pins %}
 <div class="{{ pins }}">{{ pins }}</div>
 {% endfor %}

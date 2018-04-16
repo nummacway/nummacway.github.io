@@ -11,9 +11,9 @@ defaults:
       path: ""
       type: shields
     values:
-      layout: shields
+      layout: shield
   - scope:
       path: ""
       type: shieldcategories
     values:
-      layout: shieldcategories
+      layout: shieldcategory

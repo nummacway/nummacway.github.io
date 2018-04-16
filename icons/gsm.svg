@@ -3,7 +3,7 @@
 <g transform="translate(1 .5)">
 <rect x="3" height="18" width="11" rx="1.5" />
 <rect x="5" y="3" height="5" width="7" />
-<g id="b" />
+<g id="b">
 <path d="M5 10h1m2 0h1m2 0h1" id="a" />
 <use xlink:href="#a" y="2" />
 </g>

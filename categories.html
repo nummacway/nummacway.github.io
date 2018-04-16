@@ -3,14 +3,21 @@ layout: page
 title: "Category List"
 permalink: /
 ---
-<content id="categorylist">
+<main id="categorylist">
 <h1>Shield List</h1>
 <h2>General I/O</h2>
-<p>Onboard input and all kinds of output-only connectors</p>
+<p>Onboard input and all kinds of output-only features</p>
 {% include supercategory.html parent="general" %}
 
 <h2>Common Networking</h2>
-<p>...</p>
+<p>Onboard networking technologies that are well-known and/or general purpose</p>
 {% include supercategory.html parent="networking" %}
 
-</content>
+<h2>Connecting I/O Devices</h2>
+<p>Shields for connecting external devices for input and output</p>
+{% include supercategory.html parent="devices" %}
+
+<h2>Other</h2>
+{% include supercategory.html parent="other" %}
+
+</main>

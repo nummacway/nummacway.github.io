@@ -1,14 +1,11 @@
 <ul class="categories">
-
-{% for category in site.shields %}
+{% for category in site.shieldcategories %}
 {% if category.parent == include.parent %}
 {% assign temp = category.id | split: "/" %}
 {% assign self = temp.last %}
-<li><dl id="{{ self }}">
-<dt><img src="/icons/{{ self }}.svg" alt="" /><b>{{ category.title }}</b>
-<dd>{{ category.description }}
-</dl>
+<li id="{{ self }}">
+<a href="{{ category.url }}"><img src="/icons/{{ self }}.svg" alt="" />{{ category.title }}</a>
+<span>{{ category.description }}</span>
 {% endif %}
 {% endfor %}
-
 </ul>

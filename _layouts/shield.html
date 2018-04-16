@@ -3,11 +3,11 @@ layout: page
 ---
 {% assign temp = page.id | split: "/" %}
 {% assign self = temp.last %}
-<content id="shielddetails {{ self }}">
+<main id="shielddetails {{ self }}">
 <h1>{{ page.title }}</h1>
 {% include shield-common.html page=page %}
 {% if content %}
 <h2>Description</h2>
 {{ content }}
 {% endif %}
-</content>
+</main>

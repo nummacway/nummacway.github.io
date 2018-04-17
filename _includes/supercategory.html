@@ -1,10 +1,10 @@
 <ul class="categories">
-{% for category in site.shieldcategories %}
-{% if category.parent == include.parent %}
+{% assign searchresult = site.shieldcategories | where: "parent", include.parent %}
+{% for category in searchresult %}
 {% assign temp = category.id | split: "/" %}
 {% assign self = temp.last %}
 <li id="{{ self }}">
-<a href="{{ category.url }}"><img src="/icons/{{ self }}.svg" alt="" />{{ category.title }}</a>
+<a href="{{ category.url }}"><img src="/icons/{{ self }}.svg" alt="" /> {{ category.title }}</a>
 <span>{{ category.description }}</span>
 {% endif %}
 {% endfor %}
